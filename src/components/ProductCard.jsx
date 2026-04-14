@@ -44,9 +44,7 @@ const ProductCard = ({ product, onClick }) => {
             <p className="text-[17px] font-bold text-[#0f0f1a] leading-none">
               €{price.toFixed(2)}
             </p>
-            <p className="text-[11px] text-gray-400 line-through mt-0.5">
-              €{dhprice.toFixed(2)}
-            </p>
+            
           </div>
           <div className="w-8 h-8 bg-[#0f0f1a] rounded-xl flex items-center justify-center group-hover:bg-[#c9a96e] transition-colors">
             <span className="text-white text-sm leading-none">→</span>
